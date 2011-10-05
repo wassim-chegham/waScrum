@@ -1,0 +1,6 @@
+# How to hide file extention in url
+# ex: http://cheghamwassim.com/path/file.php -> http://cheghamwassim.com/path/file 
+#RewriteEngine on
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME}\.php -f
+#RewriteRule ^(.*)$ $1.php

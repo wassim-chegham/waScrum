@@ -1,0 +1,9 @@
+CACHE MANIFEST
+# rev 2
+NETWORK:
+*
+#CACHE:
+#assets/css/*.css
+#assets/js/*.js
+#assets/img/*.png
+#assets/font/*.ttf
